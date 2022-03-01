@@ -14,12 +14,12 @@
 <body>
   <center>
     <h1>这里是宽岛。<h1>
-    <p id="date">2022.2</p>
+    <p id="date"></p>
   </center>
   <script>
     var today = new Date(); 
     var date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
-    document.getElementById('date').innerHtml = '今天是：'+date;+'。'
+    document.getElementById('date').innerHTML = '-今天是：'+date;+'。'
   </script>
 </body>
 
